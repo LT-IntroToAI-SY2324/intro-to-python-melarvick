@@ -60,3 +60,33 @@ else:
 for num in range(1,11):
     print(num)
 
+# Problem 6: Functions
+# Write a Python function to calculate the factorial of a given number.
+
+def factorial(num):
+    if num == 0:
+        return 1
+    else:
+        return num * factorial(num - 1)
+
+result = factorial(5)
+print("factorial of 5:", result)
+
+# Problem 7: Lists
+# Create a Python list of fruits and print each fruit using a for loop.
+
+fruits=["apple", "banana", "pear", "grapes", "strawberry"]
+for elem in fruits:
+    print(fruits)
+
+# Problem 8: Dictionaries
+# Create a Python dictionary to store the names and ages of people. Print out the ages of each person.
+
+people = {
+    "Morgan": 16,
+    "Bob": 30,
+    "Charlie": 22
+}
+
+for name, age in people.items():
+    print(name + " is " + str(age) + " years old.")
