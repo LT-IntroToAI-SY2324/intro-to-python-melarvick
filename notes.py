@@ -4,8 +4,12 @@
 
 # types
 
+#command + forward slash to comment out large portions of code 
+#you can decalre what you want the variable to be but you don't need to 
+
 # str
-y = "I love Computer Science!"
+y: str = "I love Computer Science!"
+print(y)
 
 # numbers
 mynum = 47
