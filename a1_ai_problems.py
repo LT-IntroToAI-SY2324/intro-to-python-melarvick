@@ -131,3 +131,13 @@ average= calculate_average(num1, num2, num3)
 
 print(f"The average of all three numbers is: " + average)
 
+#Problem 12: Reverse string
+# Write a program that takes a string and reverses it
+
+input_string = input("Enter a string: ")
+
+reversed_string = input_string[::-1]
+
+print("Reversed string:", reversed_string)
+
+
