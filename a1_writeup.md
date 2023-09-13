@@ -14,10 +14,12 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+Initially, I was intimidated about learning a new coding language because there are so many potential ways to mess up certain words or punctuation. I still need a lot of help with my answers using chatGPT, but I see the similarities between my previous coding classes and this one. 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+I noticed the similarities between python and java script in terms of the way loops, strings, and other code work together. The words to define what was going on were sometimes different, such as else/if being defined as elif, but usually the code served the same purpose. 
 
 3. What are some things that you learned through this assignment?
+
+I learned that chat gpt is a lot more helpful than I thought. You can actually use the tool to teach you things instead of just asking for a problem and recieving the solution. 

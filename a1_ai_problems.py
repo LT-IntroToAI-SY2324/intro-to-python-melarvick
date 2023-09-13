@@ -90,3 +90,44 @@ people = {
 
 for name, age in people.items():
     print(name + " is " + str(age) + " years old.")
+
+# Problem 9: Even or Odd
+# Write a program that takes an integer input from the user and determines if it's even or odd.
+
+num = int(input("Enter an integer: "))
+
+if num % 2 == 0:
+    print(num, "is even.")
+else:
+    print(num, "is odd.")
+
+# Problem 10: Calculator
+# Write a program that takes two numbers from a user and performs basic arithmetic operations
+
+num1= float(input("Enter the first number")) 
+num2= float(input("Enter the second number"))
+
+sum_result = num1 + num2
+diff_result = num1 - num2
+product_result = num1 * num2
+
+print("Sum: " + sum_result)
+print("Difference: " + diff_result)
+print("Product: " + product_result)
+
+#Problem 11: Mean
+#Write a program that takes the average of 3 numbers and returns it to the user
+
+def calculate_average(num1, num2, num3):
+    sum= num1 + num2 + num3
+    average= sum/3
+    return average
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+average= calculate_average(num1, num2, num3)
+
+print(f"The average of all three numbers is: " + average)
+
